@@ -11,7 +11,7 @@ class Solution:
     def while_loop(self,s):
         print(len(s))
         i = 0
-        #  == , < , > ,>=, <=
+        
         while( i < len(s)):
             if  self.roman_dict[s[i]] <  self.roman_dict[s[i + 1]]:
                 print('--')
